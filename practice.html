@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./practice.css" />
+    <title>Main</title>
+  </head>
+  <body>
+    <div id="gameInfo">
+      <p>Turn: <span id="turn"></span></p>
+      <p>Info: <span id="info"></span></p>
+    </div>
+    <div id="gameboard"></div>
+    <div class="options">
+      <div id="0" class="destroyer-preview destroyer" draggable="true"></div>
+      <div id="1" class="submarine-preview submarine" draggable="true"></div>
+      <div id="2" class="cruiser-preview cruiser" draggable="true"></div>
+      <div id="3" class="battleship-preview battleship" draggable="true"></div>
+      <div id="4" class="carrier-preview carrier" draggable="true"></div>
+    </div>
+    <button id="checkBtn">Check</button>
+    <button id="startBtn">Start</button>
+  </body>
+  <script src="./practice.js" defer></script>
+</html>
